@@ -92,7 +92,7 @@ col1, col2 = st.columns([1, 5])
 with col1:
     logo_path = "assets/logo.png"
     if os.path.exists(logo_path):
-        st.image(logo_path, use_container_width=True)
+        st.image(logo_path, width="stretch")
     else:
         st.write("📂")
 

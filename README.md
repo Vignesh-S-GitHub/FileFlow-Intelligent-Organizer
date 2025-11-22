@@ -1,5 +1,10 @@
 # FileFlow 🌊
 
+<div align="center">
+  <img src="assets/Demo-1_Screenshot.png" alt="App Demo 1" width="45%">
+  <img src="assets/Demo-2_Screenshot.png" alt="App Demo 2" width="45%">
+</div>
+
 **FileFlow** is an intelligent file organization tool powered by Google Gemini. It automatically renames and organizes your files based on their content, transforming chaotic folders into structured libraries.
 
 ## Features
