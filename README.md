@@ -33,8 +33,8 @@
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/YourUsername/Your-Repository-Name.git
-    cd fileflow
+    git clone https://github.com/Vignesh-S-GitHub/FileFlow-Intelligent-Organizer.git
+    cd FileFlow-Intelligent-Organizer
     ```
 
 2. Install dependencies:
