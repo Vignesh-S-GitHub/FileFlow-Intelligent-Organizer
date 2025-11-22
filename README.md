@@ -1,4 +1,4 @@
-# FileFlow 🌊
+# FileFlow 📁
 
 <div align="center">
   <img src="assets/Demo-1_Screenshot.png" alt="App Demo 1" width="45%">
