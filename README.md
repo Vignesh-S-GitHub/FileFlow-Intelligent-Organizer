@@ -1,18 +1,38 @@
-# FileFlow 📁
+<div align="center">
+
+# 📁 FileFlow
+### From cluttered folders to descriptive filenames and useful categories
+
+**Python · Streamlit · Google Gemini**
+
+</div>
+
+FileFlow is a local Streamlit app that uses Google Gemini to suggest descriptive filenames from supported file content and organize files into category folders.
+
+[🚀 Get started](#-getting-started-guide) · [🖼️ Preview](#-preview) · [🛠️ Troubleshooting](#-edge-cases--troubleshooting)
+
+## 🖼️ Preview
 
 <div align="center">
   <img src="assets/Demo-1_Screenshot.png" alt="App Demo 1" width="45%">
   <img src="assets/Demo-2_Screenshot.png" alt="App Demo 2" width="45%">
 </div>
 
-**FileFlow** is an intelligent file organization tool powered by Google Gemini. It automatically renames and organizes your files based on their content, transforming chaotic folders into structured libraries.
-
 ## Features
 
 - **✨ Smart Rename**: Analyzes file content (PDFs, text, etc.) to generate descriptive, snake_case filenames.
 - **📂 Smart Organize**: Categorizes files into logical folders (e.g., SQL, Finance, Personal) based on their names.
-- **🔒 Secure**: Your API key is used only for your session and not stored.
+- **🔑 Session configuration**: Supply a Gemini API key and model name in the interface.
 - **🎨 Modern UI**: A clean, single-page interface built with Streamlit.
+
+## How the workflow fits together
+
+| Action | Input | Result |
+|---|---|---|
+| ✨ Smart Rename | Supported file content | Descriptive `snake_case` filenames |
+| 📂 Smart Organize | File names | Category folders |
+
+File analysis uses the Gemini API. Keep a backup before renaming or moving important files.
 
 ## Prerequisites
 
@@ -72,7 +92,7 @@
 - **Empty Folder**: If the target folder is empty, the app will notify you.
 - **Permission Errors**: If a file is open in another program, FileFlow will skip it and report an error.
 - **API Limits**: If you hit the Gemini API rate limit, the app may pause or fail for that specific file. Wait a moment and try again.
-- **Large Files**: Gemini supports files up to 2GB. Extremely large files may take longer to process.
+- **Provider limits**: File size limits, model availability, and quotas depend on your Gemini configuration.
 - **Non-Text Files**: Smart Rename works best on documents (PDF, TXT, Code). Images or binaries might get generic names if the model can't understand them.
 
 ## License
